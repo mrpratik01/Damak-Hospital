@@ -1,0 +1,317 @@
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px;
+} */
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"); */
+
+dl,
+ol,
+ul {
+  list-style-position: inside;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h4,
+h5,
+h6,
+p,
+a,
+td,
+th,
+.btn {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+}
+[class^="swiper-button-"] {
+  transition: all 0.3s ease;
+}
+
+.swiper-slide {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 80%;
+  height: 50vh;
+  float: left;
+  transition: opacity 0.6s ease, transform 0.3s ease;
+}
+.swiper-container.nav-slider {
+  width: 20%;
+  padding-left: 5px;
+}
+.swiper-container.nav-slider .swiper-slide {
+  cursor: pointer;
+  opacity: 0.4;
+  transition: opacity 0.3s ease;
+}
+.swiper-container.nav-slider .swiper-slide.swiper-slide-active {
+  opacity: 1;
+}
+.swiper-container.nav-slider .swiper-slide .content {
+  width: 100%;
+}
+.swiper-container.nav-slider .swiper-slide .content .title {
+  font-size: 20px;
+}
+.swiper-container:hover .swiper-button-prev,
+.swiper-container:hover .swiper-button-next {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+}
+.swiper-container.loading {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.swiper-slide {
+  overflow: hidden;
+}
+.swiper-slide .slide-bgimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.swiper-slide .entity-img {
+  display: none;
+}
+.swiper-slide .content {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 50%;
+  padding-left: 5%;
+  color: #fff;
+}
+.swiper-slide .content .title {
+  font-size: 2.6em;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.swiper-slide .content .caption {
+  display: block;
+  font-size: 13px;
+  line-height: 1.4;
+  transform: translateX(50px);
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.7s ease;
+}
+.swiper-slide .content .caption.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+[class^="swiper-button-"] {
+  width: 44px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.swiper-button-prev {
+  transform: translateX(50px);
+}
+
+.swiper-button-next {
+  transform: translateX(-50px);
+}
+
+.about {
+  padding-top: 175px;
+  padding-bottom: 105px;
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 86%);
+
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.637),
+      rgba(0, 0, 0, 0.572)
+    ),
+    url(/Images/background-header.jpeg) no-repeat;
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+}
+
+.sontainer {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  max-height: 800px;
+  max-width: 3280px;
+  min-height: 600px;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.border {
+  height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+.border:hover {
+  border: 1px solid #fff;
+}
+.card {
+  height: 379px;
+  width: 300px;
+  background: #808080;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 70px 63px -60px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.card0 {
+  background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg")
+    center center no-repeat;
+  background-size: 300px;
+}
+/* .card0:hover {
+  background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg")
+    left center no-repeat;
+  background-size: 600px;
+} */
+
+.card1 {
+  background: url("./Images/shyamRajbanshi.jpeg") center center no-repeat;
+  background-size: 300px;
+}
+/* .card1:hover {
+  background: url("https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg")
+    left center no-repeat;
+  background-size: 600px;
+} */
+.card1:hover h2 {
+  opacity: 1;
+}
+.card1:hover .fa {
+  opacity: 1;
+}
+.card2 {
+  background: url("./Images/deviDangal.jpeg") center center no-repeat;
+  background-size: 300px;
+}
+/* .card2:hover {
+  background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg")
+    left center no-repeat;
+  background-size: 600px;
+} */
+.card2:hover h2 {
+  opacity: 1;
+}
+.card2:hover .fa {
+  opacity: 1;
+}
+/* .directors h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+} */
+.fa {
+  opacity: 0;
+  transition: opacity 1s;
+}
+.icons {
+  position: absolute;
+  fill: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  height: 130px;
+  top: 226px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Google Fonts - Poppins */
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+} */
+
+/* html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+} */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
