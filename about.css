@@ -1,0 +1,52 @@
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px;
+} */
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"); */
+
+dl,
+ol,
+ul {
+  list-style-position: inside;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h4,
+h5,
+h6,
+p,
+a,
+td,
+th,
+.btn {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+}
+
+.aboutus {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.52),
+      rgba(63, 2, 2, 0.717)
+    ),
+    url("./Images/building01-DH.jpeg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 20px;
+}

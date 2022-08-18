@@ -1,0 +1,53 @@
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px;
+} */
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"); */
+
+dl,
+ol,
+ul {
+  list-style-position: inside;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h4,
+h5,
+h6,
+p,
+a,
+td,
+th,
+.btn {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+}
+
+.about {
+  padding-top: 175px;
+  padding-bottom: 105px;
+  /* clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 86%); */
+
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.637),
+      rgba(0, 0, 0, 0.572)
+    ),
+    url(/Images/events-banner.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+}
