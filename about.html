@@ -10,7 +10,7 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/brands.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     />
     <!-- Tailwind -->
     <link
@@ -174,11 +174,11 @@
     <div class="w-full bg-red-700 h-10 mt-5">
       <nav
         :class="{ 'transform md:transform-none': !open, 'h-full': open }"
-        class="h-0 md:h-auto flex flex-col flex-grow md:items-center pb-4 md:pb-0 md:flex md:justify-start md:flex-row origin-top duration-300 scale-y-0 w-2/3 h-12 p-3 rounded-lg -mt-3"
+        class="h-0 md:h-auto flex flex-col flex-grow md:items-center pb-4 md:pb-0 md:flex md:justify-start md:flex-row origin-top duration-300 scale-y-0 w-3/4 h-12 p-3 rounded-lg -mt-3"
       >
         <li class="block relative -mt-2 ml-32">
           <a
-            class="px-0 py-1 mt-1 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-700 focus:outline-none focus:shadow-outline"
+            class="px-0 py-1 mt-1 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:underline focus:outline-none focus:shadow-outline"
             href="index.html"
             ><span class="font-bold text-white text-2xl">Home</span></a
           >
@@ -186,28 +186,35 @@
 
         <li class="block relative -mt-2">
           <a
-            class="px-4 py-1 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-700 focus:outline-none focus:shadow-outline"
+            class="px-4 py-1 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-700 hover:underline focus:outline-none focus:shadow-outline"
             href="about.html"
             ><span class="font-bold text-white text-2xl">About Us</span></a
           >
         </li>
         <li class="block relative -mt-2">
           <a
-            class="px-4 py-1 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-700 focus:outline-none focus:shadow-outline"
-            href="Service.html"
+            class="px-4 py-1 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-700 hover:underline focus:outline-none focus:shadow-outline"
+            href="service.html"
+            ><span class="font-bold text-white text-2xl">Services</span></a
+          >
+        </li>
+        <li class="block relative -mt-2">
+          <a
+            class="px-4 py-1 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-700 hover:underline focus:outline-none focus:shadow-outline"
+            href="department.html"
             ><span class="font-bold text-white text-2xl">Department</span></a
           >
         </li>
         <li class="block relative -mt-2">
           <a
-            class="px-4 py-1 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-700 focus:outline-none focus:shadow-outline"
+            class="px-4 py-1 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-700 hover:underline focus:outline-none focus:shadow-outline"
             href="Events.html"
             ><span class="font-bold text-white text-2xl">Events</span></a
           >
         </li>
         <li class="block relative -mt-2">
           <a
-            class="px-4 py-1 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-700 focus:outline-none focus:shadow-outline"
+            class="px-4 py-1 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-700 hover:underline focus:outline-none focus:shadow-outline"
             href="contact.html"
             ><span class="font-bold text-white text-2xl">Contact Us</span></a
           >
@@ -225,7 +232,7 @@
 
     <!-- Aboutus header -->
 
-    <div>
+    <!-- <div>
       <div class="aboutus relative">
         <h3
           class="font-bold text-5xl text-left absolute bottom-1/2 left-0 px-10"
@@ -240,53 +247,168 @@
           veritatis nemo?
         </p>
       </div>
+    </div> -->
+
+    <div>
+      <div class="aboutus">
+        <h4
+          class="font-bold text-xl text-center bottom-1/2 left-0 px-10 mt-10"
+        ></h4>
+        <h3 class="font-bold text-3xl text-center bottom-1/2 left-0 px-10 my-3">
+          About us
+        </h3>
+
+        <div class="w-32 mx-auto mt-3">
+          <hr class="border-t-4 rounded-full border-red-700" />
+        </div>
+        <!-- <p class="font-bold text-base w-1/2 text-left bottom-1/3 left-0 px-10">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+          totam maiores expedita quae non necessitatibus sed nisi consequuntur
+          veritatis nemo?
+        </p> -->
+      </div>
     </div>
 
-    <div class="grid grid-cols-2 pl-20 pr-20">
-      <div>
-        <img class="pt-20" src="./Images/background-header.jpeg" alt="" />
+    <div class="grid grid-cols-2">
+      <div class="ml-44 mt-20">
+        <h3 class="font-bold text-2xl text-red-700">WHO WE ARE?</h3>
+        <p class="mt-10 text-base text-justify">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          eveniet quis pariatur sit incidunt consequatur consequuntur facilis,
+          sunt omnis? Labore non, nesciunt incidunt asperiores quidem
+          repudiandae quas deleniti, blanditiis sapiente error maxime at
+          molestias. Dolorem culpa odit porro ducimus labore!
+        </p>
+        <p class="mt-10 text-base text-justify">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          eveniet quis pariatur sit incidunt consequatur consequuntur facilis,
+          sunt omnis? Labore non, nesciunt incidunt asperiores quidem
+          repudiandae quas deleniti, blanditiis sapiente error maxime at
+          molestias. Dolorem culpa odit porro ducimus labore!
+        </p>
+        <p class="mt-10 text-base text-justify">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          eveniet quis pariatur sit incidunt consequatur consequuntur facilis,
+          sunt omnis? Labore non, nesciunt incidunt asperiores quidem
+          repudiandae quas deleniti, blanditiis sapiente error maxime at
+          molestias. Dolorem culpa odit porro ducimus labore!
+        </p>
       </div>
-      <div class="pt-24 pl-10">
-        <div class="grid grid-cols-2 -px-10">
-          <h3 class="text-2xl font-bold">Damak Hospital</h3>
+      <div class="mt-52 mx-20">
+        <img src="./Images/background-header.jpeg" alt="" />
+      </div>
+    </div>
+
+    <div class="mt-10 directors bg-gray-100 pb-10">
+      <div class="ml-44">
+        <h2 class="pt-10 text-2xl text-red-700 font-bold text-left">
+          WHY CHOOSE US
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-2">
+        <div class="grid grid-cols-2 max-w-xs ml-44">
+          <div>
+            <i class="fas fa-ambulance text-red-700 fa-3x mt-10"></i>
+          </div>
+          <div>
+            <div class="mt-10 -ml-14">
+              <h4 class="text-black text-red-700 font-bold text-xl">
+                24 Hours Emergency
+              </h4>
+            </div>
+            <div class="text-left text-xs text-justify pb-5 mt-3 -ml-14">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum,
+              a!
+            </div>
+          </div>
         </div>
 
-        <p class="pt-5 text-base text-justify">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-          recusandae sit nobis ex ab, delectus ipsum sint blanditiis vitae
-          corporis itaque odit rem nisi, commodi illo iste error eos molestiae.
-        </p>
-        <p class="mt-5 text-base text-justify">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-          Exercitationem atque voluptatum doloremque nam fugiat architecto
-          laboriosam necessitatibus dolorem fuga quas odio beatae quasi corporis
-          ullam, vitae culpa, officiis aut perspiciatis! Inventore id similique
-          obcaecati. Iste, necessitatibus sequi! Magnam molestias sunt, quia
-          accusantium labore ipsa, minima pariatur rem minus iste sapiente!
-        </p>
+        <div class="grid grid-cols-2 max-w-xs -mx-44">
+          <div>
+            <i class="fas fa-user-md text-red-700 fa-3x mt-10"></i>
+          </div>
+          <div>
+            <div class="mt-10 -ml-14">
+              <h4 class="text-black text-red-700 font-bold text-xl">
+                Highly Skilled Expert
+              </h4>
+            </div>
+            <div class="text-left text-xs text-justify pb-5 mt-3 -ml-14">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum,
+              a!
+            </div>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 max-w-xs ml-44">
+          <div>
+            <i class="fa-solid fa-people-group text-red-700 fa-3x mt-10"></i>
+          </div>
+          <div>
+            <div class="mt-10 -ml-14">
+              <h4 class="text-black text-red-700 font-bold text-xl">
+                Humble / Caring Staff
+              </h4>
+            </div>
+            <div class="text-left text-xs text-justify pb-5 mt-3 -ml-14">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum,
+              a!
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 max-w-xs -mx-44">
+          <div>
+            <i class="fa-solid fa-arrow-down-long text-red-700 fa-3x mt-10"></i>
+          </div>
+          <div>
+            <div class="mt-10 -ml-14">
+              <h4 class="text-black text-red-700 font-bold text-xl">
+                Cheap and Affordable
+              </h4>
+            </div>
+            <div class="text-left text-xs text-justify pb-5 mt-3 -ml-14">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum,
+              a!
+            </div>
+          </div>
+        </div>
+        <div class="grid grid-cols-2 max-w-xs ml-44">
+          <div>
+            <i class="fa-solid fa-gear text-red-700 fa-3x mt-10"></i>
+          </div>
+          <div>
+            <div class="mt-10 -ml-14">
+              <h4 class="text-black text-red-700 font-bold text-xl">
+                Latest Tools and Equipment
+              </h4>
+            </div>
+            <div class="text-left text-xs text-justify pb-5 mt-3 -ml-14">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum,
+              a!
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 max-w-xs -mx-44">
+          <div>
+            <i class="fa-solid fa-circle-check text-red-700 fa-3x mt-10"></i>
+          </div>
+          <div>
+            <div class="mt-10 -ml-14">
+              <h4 class="text-black text-red-700 font-bold text-xl">
+                High Success Rates
+              </h4>
+            </div>
+            <div class="text-left text-xs text-justify pb-5 mt-3 -ml-14">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum,
+              a!
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="grid grid-cols-2 pl-20 pr-20">
-      <div class="pt-24">
-        <h3 class="font-bold text-2xl">Why Choose Us?</h3>
-        <p class="pt-10 text-base pr-5">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint,
-          consequuntur quo culpa rerum earum, id cupiditate maxime commodi alias
-          eum quaerat corrupti quam autem enim omnis est suscipit dolore maiores
-          numquam dolores. Amet illum consequuntur obcaecati possimus.
-          Blanditiis nemo maxime impedit, ipsa laborum pariatur corporis, non
-          nostrum, maiores tempore excepturi!
-        </p>
-      </div>
-      <div>
-        <img
-          class="pt-20 w-full h-4/5"
-          src="./Images/surgery02-DH.jpeg"
-          alt=""
-        />
-      </div>
-    </div>
     <footer class="footer py-10 bg-gray-700">
       <div class="flex flex-wrap -mt-5 md:mt-0 -ml-10 md:ml-0 h-44">
         <div>
