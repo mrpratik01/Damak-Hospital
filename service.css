@@ -50,3 +50,57 @@ th,
   color: white;
   padding: 20px;
 }
+
+.service-bg {
+  background-color: #fafafa;
+}
+
+.box {
+  border-bottom: 20px solid #b91c1c;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.box ul {
+  position: relative;
+  background: #fff;
+}
+
+.box ul li {
+  list-style: none;
+  padding: 10px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s;
+}
+
+.box ul:hover li {
+  opacity: 0.2;
+}
+
+.box ul li:hover {
+  transform: scale(1.1);
+
+  background: #b91c1c;
+  color: #fff;
+  opacity: 1;
+}
+.box ul li span {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  background: #b91c1c;
+  color: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.box ul li:hover span {
+  background: #fff;
+  color: #b91c1c;
+}
